@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Filmes</title>
+		<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main>
+	<h2>Filmes Populares</h2>
+	 <div class="input-container">
+      <input type="text" name="movie-name" id="movie-name" placeholder="Digite algum filme para pesquisar...">
+      <img src="imagens/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon">
+    </div>
+    <div class="showOnlyFavorites">
+      <input type="checkbox" name="onlyFavorites" id="onlyFavorites">
+      <label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
+    </div>
+
+
+	<div class="flexbox-container">
+		<!--PRECISO DE UMA AJUDA AQUI NESSE EXEMPLO QUE FIZ AO COPIAR FLEXBOX-ITEM ITEM1 ELE NÃO PULA PARA OUTRA COLUNA FICA BAGUNÇADO -->
+		<div class="flexbox-item item1">
+		  <img class="banner" src="imagens/filme1.jpg" alt="Logo">
+			<div class="flexbox-item">    
+		 <div class="movie-icon">
+	       <h4>Super Man (2022)</h4>
+	      <div class="rating">
+	        <img src="imagens/star.png" alt="Star Icon"/>
+	        <span>9.2</span>
+	       </div>
+	       <div class="favorite">
+	        <img src="imagens/heart.svg" alt="Star Icon"/>
+	         <span>Favoritar</span>
+	       </div>
+      </div>
+        <div class="movie-description">
+          <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+       	</div>
+		</div>
+</main>
+</body>
+</html>
